@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 class kwiat():
     def __init__(self, kolor, nazwa):
         self.kolor = kolor
