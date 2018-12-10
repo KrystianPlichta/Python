@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-class Trees:
+class Tree:
     pass
 
 
-trees = Trees()
+tree = Tree()
 
 
-class Conifers(Trees):
+class Conifers(Tree):
     pass
 
 
-class Deciduous(Trees):
+class Deciduous(Tree):
     pass
 
 
@@ -31,18 +31,18 @@ class Oak(Deciduous):
 
 oak = Oak()
 
-print(trees)
-print(isinstance(trees, Trees))
-print(isinstance(trees, object))
+print(tree)
+print(isinstance(tree, Tree))
+print(isinstance(tree, object))
 
 print(conifers)
 print(isinstance(conifers, Conifers))
-print(isinstance(conifers, Trees))
+print(isinstance(conifers, Tree))
 print(isinstance(conifers, object))
 
 print(deciduous)
 print(isinstance(deciduous, Deciduous))
-print(isinstance(deciduous, Trees))
+print(isinstance(deciduous, Tree))
 print(isinstance(deciduous, object))
 print(isinstance(deciduous, Conifers))
 print(isinstance(conifers, Deciduous))
@@ -50,7 +50,7 @@ print(isinstance(conifers, Deciduous))
 print(oak)
 print(isinstance(oak, Oak))
 print(isinstance(oak, Deciduous))
-print(isinstance(oak, Trees))
+print(isinstance(oak, Tree))
 print(isinstance(oak, Conifers))
 print(isinstance(oak, Pine))
 print(isinstance(oak, object))
@@ -58,7 +58,7 @@ print(isinstance(oak, object))
 print(pine)
 print(isinstance(pine, Pine))
 print(isinstance(pine, Conifers))
-print(isinstance(pine, Trees))
+print(isinstance(pine, Tree))
 print(isinstance(pine, Deciduous))
 print(isinstance(pine, Oak))
 print(isinstance(pine, object))
