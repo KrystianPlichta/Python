@@ -18,18 +18,18 @@ conifers = Conifers()
 deciduous = Deciduous()
 
 
-class Pine(Conifers):
+class Pines(Conifers):
     pass
 
 
-pine = Pine()
+pines = Pines()
 
 
-class Oak(Deciduous):
+class Oaks(Deciduous):
     pass
 
 
-oak = Oak()
+oaks = Oaks()
 
 print(trees)
 print(isinstance(trees, Trees))
@@ -47,19 +47,19 @@ print(isinstance(deciduous, object))
 print(isinstance(deciduous, Conifers))
 print(isinstance(conifers, Deciduous))
 
-print(oak)
-print(isinstance(oak, Oak))
-print(isinstance(oak, Deciduous))
-print(isinstance(oak, Trees))
-print(isinstance(oak, Conifers))
-print(isinstance(oak, Pine))
-print(isinstance(oak, object))
+print(oaks)
+print(isinstance(oaks, Oaks))
+print(isinstance(oaks, Deciduous))
+print(isinstance(oaks, Trees))
+print(isinstance(oaks, Conifers))
+print(isinstance(oaks, Pines))
+print(isinstance(oaks, object))
 
-print(pine)
-print(isinstance(pine, Pine))
-print(isinstance(pine, Conifers))
-print(isinstance(pine, Trees))
-print(isinstance(pine, Deciduous))
-print(isinstance(pine, Oak))
-print(isinstance(pine, object))
+print(pines)
+print(isinstance(pines, Pines))
+print(isinstance(pines, Conifers))
+print(isinstance(pines, Trees))
+print(isinstance(pines, Deciduous))
+print(isinstance(pines, Oaks))
+print(isinstance(pines, object))
 
