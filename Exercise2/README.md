@@ -1,6 +1,8 @@
 ﻿ZADANIE 2
 ________________________________
+
 #!/usr/bin/env python3
+
 class Trees:
     pass
 
